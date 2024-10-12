@@ -8,7 +8,7 @@ CORS(app)  # Allow CORS for all routes and origins
 
 @app.route('/api/data', methods=['GET'])
 def get_data():
-    data = {"message": "Hello from Flask :)"}
+    data = {"message": "Hello from Flask :) lmao"}
     return jsonify(data)
 
 @app.route('/', defaults={'path': ''})
